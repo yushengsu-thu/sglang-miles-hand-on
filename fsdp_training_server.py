@@ -75,7 +75,9 @@ def apply_fsdp2(model, mesh=None, args=None):
     """
     from torch.distributed.fsdp import MixedPrecisionPolicy, fully_shard
 
-    layer_cls_to_wrap = model._no_split_modules
+    # Newer transformers versions return a `set` here; convert to `list` so
+    # subscripting (and downstream `in` checks) behave consistently.
+    layer_cls_to_wrap = list(model._no_split_modules)
     assert len(layer_cls_to_wrap) > 0 and layer_cls_to_wrap[0] is not None
 
     modules = [
