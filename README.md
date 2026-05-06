@@ -2,6 +2,8 @@
 
 # How to use the nodes and run the toturial
 
+## PPT: https://docs.google.com/presentation/d/1erckPX36TyT0PRaTVElvz-VOTqCp_ZnxvjCnzEguYbk/edit?usp=sharing
+
 ## Nodes
 You can use the following nodes with the password:
 
