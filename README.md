@@ -31,7 +31,7 @@ git clone https://github.com/yushengsu-thu/sglang-miles-hand-on.git
 ```
 
 ## Dev IDE
-We provide `*.ipynb` you can use IDE such as Cursor or VScode to log into the above nodes and choose python environnement kerkel `/usr/bin/python`.
+We provide `*.ipynb` (i.e. `training_lab_sglang_rl.ipynb`) you can use IDE (such as Cursor or VScode) to log into the above nodes and choose python environnement kerkel `/usr/bin/python`.
 
 And you will see below: 
 
