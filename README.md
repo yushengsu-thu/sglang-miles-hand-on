@@ -23,7 +23,9 @@ You can use the following nodes with the password:
 1 GPU node:
 - IP: `ssh -p 38287 root@proxy.us-ca-7.gpu-instance.novita.ai` PWD: `KUScj1uA3aqUQxmah8GS`
 
-## Nodes
+Note: There might be mutiple use the same nodes. Thus, you can use `nvidia-smi` to check whether any GPUs are already occupied before starting. Additionally, you can `mkdir` create a directory with your name to avoid conflicts if others use the same directory.
+
+## Repo:
 ```bash
 mkdir DEV_YOUR_NAME
 cd DEV_YOUR_NAME
