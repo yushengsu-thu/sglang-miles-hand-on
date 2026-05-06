@@ -33,7 +33,17 @@ git clone https://github.com/yushengsu-thu/sglang-miles-hand-on.git
 ```
 
 ## Dev IDE
-We provide `*.ipynb` (i.e. `training_lab_sglang_rl.ipynb`) you can use IDE (such as Cursor or VScode) to log into the above nodes and choose python environnement kerkel `/usr/bin/python`.
+You can log into the above nodes to run the exmaples. To log into the node via IDE (such as Cursor or VScode), you can go to your local `.ssh/config` and add the node ip to your config, i,e.:
+```bash
+Host novita-gpu
+    HostName proxy.us-ca-7.gpu-instance.novita.ai
+    Port 40222
+    User root
+```
+and then click <img width="1273" height="108" alt="Screenshot 2026-05-06 at 1 04 38 PM" src="https://github.com/user-attachments/assets/6b6dd85c-0350-41bb-9a74-69358b7fac8a" />
+
+Beside, we provide `*.ipynb` (i.e. `training_lab_sglang_rl.ipynb`). You can open it and choose python environnement kerkel `/usr/bin/python`. Then you can run it.
+
 
 And you will see below: 
 
